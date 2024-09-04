@@ -56,7 +56,8 @@ The final thing to run will be the docker-compose file, if you run the follwoing
 docker-compose up -d
 ```
 
-Lastly, to run the Python script execute the following in the root folder
+Lastly, to run the Python script execute the following in the root folder. Before running you will need to place the test_data.json into the data folder as
+the file was too large when committing my code
 
 ```shell
 python ./python/main.py
