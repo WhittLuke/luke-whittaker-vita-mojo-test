@@ -333,11 +333,11 @@ if __name__ == '__main__':
 
 
     # Debug only
-    cursor.execute("select * from orders;")
-    rows = cursor.fetchall()
+    # cursor.execute("select * from orders;")
+    # rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    # for row in rows:
+    #     print(row)
 
     # Commit all query executions so they persist in Postgres
     # and close all open connections
