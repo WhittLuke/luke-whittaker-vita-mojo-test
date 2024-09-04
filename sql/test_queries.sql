@@ -3,7 +3,7 @@
 */
 
 select 
-    distinct id 
+    count(distinct id) as total_num_orders
 
 from bundles
 ;
